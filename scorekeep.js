@@ -1,3 +1,11 @@
+
+// Title : Javascript File for Score Keeper
+// Author : Angad Sudesh Srivastav
+// Date and Time : {14th October 2019 (3:47 pm)}
+// Objective : To make a js file for our htl score keeper which will make it interactive
+
+// Variables Used : 
+
 var Player1Button = document.getElementById("p1b");
 var Player2Button = document.getElementById("p2b");
 var ResetButton = document.getElementById("res");
@@ -6,6 +14,7 @@ var p1score = 0;
 var p2score = 0;
 var winningscore = 5;
 var gameOver = false;
+
 
 ChangeUpto.addEventListener("click", function(){
 	winningscore = Number(prompt("Enter the upto?"));
